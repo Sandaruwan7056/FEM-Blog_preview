@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+--background: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--textcolor: hsl(0, 0%, 42%);
+--headingcolor: hsl(0, 0%, 7%);
+}
+
+html{
+    font-size: 100%;
+    font-family: figtree;
+}
+
+body{
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+.blogcard{
+    background-color: var(--White);
+    width: 18.75rem;
+    border-radius: 1rem;
+    padding:1rem ;
+    border: 1px solid black;
+    box-shadow:10px 10px;
+   
+}
+
+.blogcard img{
+    border-radius: 10px;
+}
+
+button{
+    margin: 0.5rem 0;
+    background-color: var(--background);
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-contain{
+    text-align: left;
+    margin-bottom: 1.5rem;
+
+}
+
+.card-contain h3{
+    font-weight:  800;
+    margin-bottom: 0.5rem;
+    color: var(--headingcolor);
+}
+.card-contain P{
+    font-weight: 500;
+    color: var(--textcolor);
+    font-size: 1rem;
+}
+
+.publisher-area{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.publisher-area h3{
+    padding-left: 0.8rem;
+}
