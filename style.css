@@ -45,6 +45,11 @@ button{
     padding: 0.4rem;
     border-radius: 0.2rem;
     font-weight: bold;
+    transition: all 0.3s ease;
+}
+button:hover{
+    color: grey;
+    cursor: pointer;
 }
 
 .date{
@@ -63,6 +68,12 @@ button{
     margin-bottom: 0.5rem;
     color: var(--headingcolor);
 }
+
+.card-contain h3:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
 .card-contain P{
     font-weight: 500;
     color: var(--textcolor);
@@ -78,4 +89,9 @@ button{
 
 .publisher-area h3{
     padding-left: 0.8rem;
+}
+
+.publisher-area h3:hover{
+    color: grey;
+    cursor: pointer;
 }
